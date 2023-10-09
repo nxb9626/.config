@@ -5,9 +5,6 @@ line-number = "relative"
 mouse = true
 bufferline="multiple"
 
-#[editor.statusline]
-# left = []
-# right = []
 
 [editor.gutters]
 layout = ["diff", "diagnostics", "line-numbers","spacer"]
