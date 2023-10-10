@@ -93,6 +93,7 @@ b = [":new",":insert-output cargo"]
 l = ":theme catppuccin_latte"
 d = ":theme catppuccin_mocha"
 f = ":format"
+
 [keys.select.t]
 s = ":pipe sort"
 
