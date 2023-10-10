@@ -22,7 +22,7 @@ hidden = false
 
 [keys.normal."space"]
 "space" = ":write"
-"minus" = "goto_reference"
+"minus" = "jump_backward"
 y = "yank_main_selection_to_clipboard"
 p = "paste_clipboard_after"
 
