@@ -2,3 +2,5 @@
 !.gitignore
 !helix
 !zellij
+!alacritty
+alacritty/themes
