@@ -8,5 +8,6 @@ window:
 font:
   size: 18.0
 import:
+  # See README.md for setting  up the dark/light mode shortcuts
   # - ~/.config/alacritty/themes/catppuccin-mocha.yml
   - ~/.config/alacritty/themes/catppuccin-mocha.yml
