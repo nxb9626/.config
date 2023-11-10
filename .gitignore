@@ -6,4 +6,5 @@
 alacritty/themes
 !zsh
 !nvim
+!tmux
 

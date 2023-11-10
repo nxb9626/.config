@@ -7,6 +7,8 @@ window:
   decorations: Transparent
 font:
   size: 18.0
+env:
+  TERM: xterm-256color
 import:
   # See README.md for setting  up the dark/light mode shortcuts
   # - ~/.config/alacritty/themes/catppuccin-mocha.yml
