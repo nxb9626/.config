@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "confirm_quit": true,
+  "theme": "Rosé Pine Moon",
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "features": {
+    "copilot": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "buffer_font_size": 15,
+  "cursor_blink": false,
+  "formatter": "language_server",
+  "format_on_save": "off",
+  "autosave":"on_window_change",
+  "tab_size": 2,
+  "terminal": {
+    "dock": "right",
+    "blinking": "off"
+  },
+  "buffer_font_features": {
+    "liga": false
+  },
+  "wrap_guides": [
+    100
+  ],
+  "journal": {
+    // The path of the directory where journal entries are stored
+    "path": "~/Brain/brain/journal"
+  },
+  "assistant": {
+    "button": false
+  },
+  "inlay_hints": {
+    "show_other_hints": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  }
+}

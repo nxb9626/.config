@@ -1,0 +1,28 @@
+[
+  {
+    "bindings": {
+      "cmd-1": "workspace::ToggleLeftDock",
+      "cmd-3": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      // definitions
+      "-": "editor::GoToDefinition",
+      "space -": "pane::GoBack",
+      "g r": "editor::FindAllReferences",
+      // nice to haves
+      "ctrl-esc": "editor::ToggleInlayHints",
+      "space w": "workspace::Save",
+      "space r": "editor::Rename",
+      "space f": "editor::Format",
+      // buffer management and movement
+      "space %": "pane::SplitRight",
+      "space h": "workspace::ActivatePreviousPane",
+      "space j": "pane::ActivateNextItem",
+      "space k": "pane::ActivatePrevItem",
+      "space l": "workspace::ActivateNextPane",
+    }
+  }
+]
