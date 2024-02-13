@@ -22,7 +22,7 @@
   "cursor_blink": false,
   "formatter": "language_server",
   "format_on_save": "off",
-  "autosave":"on_window_change",
+  "autosave": "on_window_change",
   "tab_size": 2,
   "terminal": {
     "dock": "right",
@@ -49,5 +49,5 @@
   },
   "collaboration_panel": {
     "button": false
-  }
+  },
 }

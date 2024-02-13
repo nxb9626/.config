@@ -8,6 +8,8 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
+      // "$":"editor::MoveToEndOfLine",
+      // "0":"editor::MoveToBeginningOfLine",
       // definitions
       "-": "editor::GoToDefinition",
       "space -": "pane::GoBack",
