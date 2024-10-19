@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "confirm_quit": true,
-  "theme": "Rosé Pine Moon",
+  "theme": "Catppuccin Mocha",
   "base_keymap": "VSCode",
   "vim_mode": true,
   "features": {
@@ -31,23 +31,48 @@
   "buffer_font_features": {
     "liga": false
   },
+  "soft_wrap": "prefer_line",
   "wrap_guides": [
-    100
+    80
   ],
   "journal": {
     // The path of the directory where journal entries are stored
     "path": "~/Brain/brain/journal"
   },
   "assistant": {
-    "button": false
+    "version": "2",
+    "button": false,
+    "enabled": false,
+    "dock": "bottom"
   },
   "inlay_hints": {
     "show_other_hints": false
   },
   "chat_panel": {
-    "button": false
+    "button": false,
+    "dock": "bottom"
+  },
+
+  "notification_panel": {
+    "button": false,
+    "dock": "bottom"
   },
   "collaboration_panel": {
     "button": false
   },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "preview": {
+    "wrap_guides": [
+      80
+    ]
+  },
+  "languages": {
+    "Markdown": {
+      "formatter": "prettier"
+    }
+  }
 }

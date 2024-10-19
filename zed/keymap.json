@@ -8,8 +8,11 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
-      // "$":"editor::MoveToEndOfLine",
-      // "0":"editor::MoveToBeginningOfLine",
+      // enable when writing markdown for now
+      // "$": "editor::MoveToEndOfLine",
+      // "0": "editor::MoveToBeginningOfLine",
+      // "j": "dwn",
+      // "k": "vim::Up",
       // definitions
       "-": "editor::GoToDefinition",
       "space -": "pane::GoBack",
