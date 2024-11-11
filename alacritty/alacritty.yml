@@ -11,5 +11,5 @@ env:
   TERM: xterm-256color
 import:
   # See README.md for setting  up the dark/light mode shortcuts
-  # - ~/.config/alacritty/themes/catppuccin-mocha.yml
-  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+  # - ~/.config/alacritty/themes/catppuccin-latte.yml
+  # - ~/.config/alacritty/themes/catppuccin-latte.yml
