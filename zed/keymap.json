@@ -2,6 +2,7 @@
   {
     "bindings": {
       "cmd-1": "workspace::ToggleLeftDock",
+      "cmd-2": "workspace::ToggleBottomDock",
       "cmd-3": "workspace::ToggleRightDock"
     }
   },
@@ -24,10 +25,11 @@
       "space f": "editor::Format",
       // buffer management and movement
       "space %": "pane::SplitRight",
+      "space \"": "pane::SplitDown",
       "space h": "workspace::ActivatePreviousPane",
       "space j": "pane::ActivateNextItem",
       "space k": "pane::ActivatePrevItem",
-      "space l": "workspace::ActivateNextPane",
+      "space l": "workspace::ActivateNextPane"
     }
   }
 ]

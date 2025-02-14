@@ -12,6 +12,7 @@
   "base_keymap": "VSCode",
   "vim_mode": true,
   "features": {
+    "inline_completion_provider": "none",
     "copilot": false
   },
   "telemetry": {
@@ -32,9 +33,7 @@
     "liga": false
   },
   "soft_wrap": "prefer_line",
-  "wrap_guides": [
-    80
-  ],
+  "wrap_guides": [80],
   "journal": {
     // The path of the directory where journal entries are stored
     "path": "~/Brain/brain/journal"
@@ -66,13 +65,27 @@
     }
   },
   "preview": {
-    "wrap_guides": [
-      80
-    ]
+    "wrap_guides": [80]
   },
   "languages": {
     "Markdown": {
       "formatter": "prettier"
+    },
+    "JSONC": {
+      "formatter": "prettier"
+    },
+    "Plain Text": {
+      "tab_size": 4,
+      "show_whitespaces": "all",
+      "remove_trailing_whitespace_on_save": false,
+      "hard_tabs": false
+    }
+  },
+  "lsp": {
+    "typos": {
+      "initialization_options": {
+        "diagnosticSeverity": "Warning"
+      }
     }
   }
 }
