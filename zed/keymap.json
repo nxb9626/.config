@@ -28,8 +28,10 @@
       "space \"": "pane::SplitDown",
       "space h": "workspace::ActivatePreviousPane",
       "space j": "pane::ActivateNextItem",
-      "space k": "pane::ActivatePrevItem",
-      "space l": "workspace::ActivateNextPane"
+      "space k": "pane::ActivatePreviousItem",
+      "space l": "workspace::ActivateNextPane",
+      "©": "git::Branch",
+      "†": "task::Rerun"
     }
   }
 ]

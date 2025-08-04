@@ -7,28 +7,32 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "disable_ai": true,
   "confirm_quit": true,
-  "theme": "Catppuccin Mocha",
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte"
+  },
   "base_keymap": "VSCode",
   "vim_mode": true,
   "features": {
-    "inline_completion_provider": "none",
-    "copilot": false
+    "edit_prediction_provider": "none"
   },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
-  "buffer_font_size": 15,
+  "buffer_font_size": 16.0,
   "cursor_blink": false,
   "formatter": "language_server",
   "format_on_save": "off",
   "autosave": "on_window_change",
   "tab_size": 2,
   "terminal": {
-    "dock": "right",
+    "dock": "bottom",
     "blinking": "off"
   },
+  "outline_panel": { "dock": "left" },
   "buffer_font_features": {
     "liga": false
   },
@@ -38,8 +42,7 @@
     // The path of the directory where journal entries are stored
     "path": "~/Brain/brain/journal"
   },
-  "assistant": {
-    "version": "2",
+  "agent": {
     "button": false,
     "enabled": false,
     "dock": "bottom"
@@ -48,16 +51,18 @@
     "show_other_hints": false
   },
   "chat_panel": {
-    "button": false,
+    "button": "never",
     "dock": "bottom"
   },
-
   "notification_panel": {
     "button": false,
     "dock": "bottom"
   },
   "collaboration_panel": {
     "button": false
+  },
+  "debugger": {
+    "dock": "left"
   },
   "git": {
     "inline_blame": {
@@ -67,9 +72,13 @@
   "preview": {
     "wrap_guides": [80]
   },
+  "completions": {
+    "words": "disabled"
+  },
   "languages": {
     "Markdown": {
-      "formatter": "prettier"
+      "formatter": "prettier",
+      "show_completions_on_input": false
     },
     "JSONC": {
       "formatter": "prettier"
